@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ContactInformationService } from './_Services/ContactInformation.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-contact-management';
+
+  constructor()
+  {
+  }
 }

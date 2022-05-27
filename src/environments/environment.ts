@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  BaseURL: 'https://us-central1-ng-contact-info-app.cloudfunctions.net/app/api/'
 };
 
 /*
